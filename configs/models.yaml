@@ -1,0 +1,5 @@
+# P2 owns the model list and base parameters.
+random_seed: 42
+cv_folds: 5
+group_column: trip_id
+models: []

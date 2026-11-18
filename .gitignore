@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data and generated artifacts
+data/raw/
+data/evaluator_test/
+data/processed/*.parquet
+data/processed/*.csv
+artifacts/*.joblib
+artifacts/*.pkl
+experiments/**/*.db
+experiments/**/*.csv
+experiments/**/*.png
+experiments/**/*.json
+report/maps/
+report/figures/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.env

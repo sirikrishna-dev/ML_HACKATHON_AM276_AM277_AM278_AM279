@@ -1,0 +1,7 @@
+# P1 owns these settings.
+data_dir: data/raw
+processed_dir: data/processed
+projection: utm
+candidate_radius_m: 100
+candidate_k: 8
+random_seed: 42

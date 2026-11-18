@@ -1,0 +1,7 @@
+# P3 owns this configuration. Values below are starting placeholders, not tuned values.
+sigma: 20.0
+beta: 50.0
+max_gap_s: 30.0
+break_policy: restart
+bounded_dijkstra: true
+cache_shortest_paths: true
